@@ -28,6 +28,29 @@ You don't need to be a coder to use this. Just follow these steps:
 
 ---
 
+## 📖 How to Use Project Protocol
+
+Once the extension is initialized, follow these steps to manage your goals:
+
+---
+
+### 1. Add a Goal
+* **Locate:** Look for the **double arrow (`>>`)** at the bottom of the page.
+* **Focus:** Click the text that says **"Initialize new protocol..."**.
+* **Input:** Type your goal (e.g., "Run 5km" or "Finish Research Paper").
+* **Confirm:** Press **Enter** on your keyboard. The goal will instantly snap into your active list.
+
+### 2. Edit a Goal
+* **Rename:** Click directly on the **title** of any active goal to rename it.
+* **Describe:** Click the area **directly below the title** to add a description or specific operational details. The system saves your changes automatically as you type.
+
+### 3. Delete a Goal
+* **Hover:** Move your mouse cursor over the goal you wish to remove.
+* **Terminate:** A red **[ TERMINATE ]** button will appear on the right side of that goal.
+* **Remove:** Click the button to permanently delete the objective from the protocol.
+
+---
+
 ## 🛠 Developer Installation (CLI Version)
 
 If you have Git installed and want to contribute or tweak the source:
@@ -50,29 +73,6 @@ If you have Git installed and want to contribute or tweak the source:
 * **Tactical Protocols:** Add, edit, and terminate high-level goals through a sleek, terminal-style interface.
 * **Integrated Search:** A focused Google search bar built directly into the HUD.
 * **Privacy:** All data is stored locally in your Chrome Profile using `chrome.storage.sync`. No external servers.
-
----
-
-## 📖 How to Use Project Protocol
-
-Once the extension is initialized, follow these steps to manage your goals:
-
----
-
-### 1. Add a Goal
-* **Locate:** Look for the **double arrow (`>>`)** at the bottom of the page.
-* **Focus:** Click the text that says **"Initialize new protocol..."**.
-* **Input:** Type your goal (e.g., "Run 5km" or "Finish Research Paper").
-* **Confirm:** Press **Enter** on your keyboard. The goal will instantly snap into your active list.
-
-### 2. Edit a Goal
-* **Rename:** Click directly on the **title** of any active goal to rename it.
-* **Describe:** Click the area **directly below the title** to add a description or specific operational details. The system saves your changes automatically as you type.
-
-### 3. Delete a Goal
-* **Hover:** Move your mouse cursor over the goal you wish to remove.
-* **Terminate:** A red **[ TERMINATE ]** button will appear on the right side of that goal.
-* **Remove:** Click the button to permanently delete the objective from the protocol.
 
 ---
 
