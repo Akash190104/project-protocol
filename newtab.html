@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Protocol Status</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div id="setup-screen" class="hidden">
+            <header>
+                <h1>SYSTEM INITIALIZATION</h1>
+            </header>
+            <div class="setup-form">
+                <p class="section-title">>> IDENTIFY USER</p>
+                <input type="text" id="setup-name" placeholder="Enter Codename (e.g. Akash)">
+                
+                <p class="section-title">>> PROTOCOL START DATE</p>
+                <input type="date" id="setup-start">
+                
+                <p class="section-title">>> TARGET DEADLINE</p>
+                <input type="date" id="setup-end">
+
+                <button id="initialize-btn">[ INITIALIZE PROTOCOL ]</button>
+            </div>
+        </div>
+
+        <div id="dashboard-screen" class="hidden">
+            <header>
+                <div class="system-status"><span class="blink">●</span> SYSTEM ONLINE</div>
+                <h1 id="project-header">PROJECT ...</h1> 
+                <button id="config-btn" title="Reset Configuration">⚙</button>
+            </header>
+
+            <div class="search-container">
+                <form action="https://www.google.com/search" method="get" class="search-form">
+                    <div class="search-wrapper">
+                        <svg class="search-icon" viewBox="0 0 24 24">
+                            <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                        </svg>
+                        
+                        <input type="text" name="q" class="search-box" placeholder="Search Google..." autocomplete="off" autofocus>
+                    </div>
+                </form>
+            </div>
+
+            <section class="metrics">
+                <div class="message">
+                    <span id="user-name-display">User</span>, you have <span id="days-big" class="accent">0</span> days remaining.
+                </div>
+                <div class="countdown-detail"><span id="timer-precise">00:00:00:00</span></div>
+                <div id="visual-grid" class="grid-container"></div>
+            </section>
+
+            <hr class="divider">
+
+            <section class="goals-section">
+                <div class="section-title">>> ACTIVE PROTOCOLS</div>
+                <div id="goals-list" class="goals-list"></div>
+
+                <div class="command-line">
+                    <span class="prompt-char">>></span>
+                    <input type="text" id="new-goal-input" placeholder="Initialize new protocol..." autocomplete="off">
+                </div>
+            </section>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
