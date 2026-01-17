@@ -53,6 +53,30 @@ If you have Git installed and want to contribute or tweak the source:
 
 ---
 
+## 📖 How to Use Project Protocol
+
+Once the extension is initialized, follow these steps to manage your goals:
+
+---
+
+### 1. Add a Goal
+* **Locate:** Look for the **double arrow (`>>`)** at the bottom of the page.
+* **Focus:** Click the text that says **"Initialize new protocol..."**.
+* **Input:** Type your goal (e.g., "Run 5km" or "Finish Research Paper").
+* **Confirm:** Press **Enter** on your keyboard. The goal will instantly snap into your active list.
+
+### 2. Edit a Goal
+* **Rename:** Click directly on the **title** of any active goal to rename it.
+* **Describe:** Click the area **directly below the title** to add a description or specific operational details. The system saves your changes automatically as you type.
+
+### 3. Delete a Goal
+* **Hover:** Move your mouse cursor over the goal you wish to remove.
+* **Terminate:** A red **[ TERMINATE ]** button will appear on the right side of that goal.
+* **Remove:** Click the button to permanently delete the objective from the protocol.
+
+---
+
+
 ## ⚙️ How to Reset
 
 If you reach your goal early or want to change your deadline:
