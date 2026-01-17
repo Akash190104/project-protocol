@@ -22,7 +22,7 @@ Since this extension is designed for developers and power users, it is installed
 
 1.  **Download:** Clone this repository or download the ZIP.
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/project-protocol.git](https://github.com/YOUR_USERNAME/project-protocol.git)
+    git clone https://github.com/Akash190104/project-protocol.git
     ```
 2.  **Open Chrome Extensions:**
     * Navigate to `chrome://extensions/` in your browser.
