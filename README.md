@@ -2,7 +2,7 @@
 
 > **"Akash, you have 1356 days remaining."**
 
-**Project Protocol** is a rational, high-contrast dashboard for Google Chrome. It replaces your "New Tab" page with a brutal, honest visualization of time. It is designed for those who need to see the scarcity of time to stay focused on their long-term objectives.
+Inspired by [Project 1356](https://www.instagram.com/project.1356/), **Project Protocol** is a rational, high-contrast dashboard for Google Chrome. It replaces your "New Tab" page with a brutal, honest visualization of time. It is designed for those who need to see the scarcity of time to stay focused on their long-term objectives.
 
 ![Project 1356](icons/project_1356.png)
 
